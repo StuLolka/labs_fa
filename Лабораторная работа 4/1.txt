@@ -1,0 +1,11 @@
+    1  cd lab04
+    2  nano hello.sh
+    3  bash hello.sh 
+    4  chmod +x hello.sh 
+    5  ./hello.sh 
+    6  hello.sh 
+    7  mkdir ~/bin
+    8  mv hello.sh ~/bin/
+    9  export PATH=$PATH:/home/sbochkarev/bin
+   10  hello.sh 
+   11  history > history.txt

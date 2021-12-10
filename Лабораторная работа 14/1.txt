@@ -1,0 +1,28 @@
+  173  git clone git@github.com:squizduos/0_git_basics.git ~/git/test
+  174  cd ~/git/test/
+  175  cp ../backup.sh ./backup.sh
+  176  git add backup.sh 
+  177  git commit -m "Added backup.sh script" 
+  178  git push
+  179  nano backup.sh 
+  180  git add backup.sh 
+  181  git commit -m "Added comment"
+  182  nano backup.sh 
+  183  git add backup.sh 
+  184  git commit -m "Added comment"
+  185  git revert f27f605
+  186  nano backup.sh 
+  187  git log
+  188  cp ~/Документы/hw1*.py
+  189  cp ~/Документы/hw1.py ./
+  190  cp ~/Документы/hw2.py ./
+  191  cp ~/Документы/hw3.py ./
+  192  git add hw*.py
+  193  git commit -m "Added my homework"
+  194  cp ~/Документы/hw4.py ~/Документы/hw5.py ~/Документы/hw6.py ./
+  195  git add hw*.py
+  196  git commit -m "Added my homework part 2"
+  197  cp ~/Документы/hw7.py ~/Документы/hw8.py ~/Документы/hw9.py ./
+  198  git add hw*.py
+  199  git commit -m "Added my homework part 3"
+  200  git push

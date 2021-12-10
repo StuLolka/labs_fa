@@ -1,0 +1,10 @@
+1 sudo apt list --installed
+2 dpkg-query -l | grep gnome| wc -l
+3 dpkg-query -l gnome
+4 dpkg-query -l mc
+5 sudo apt depends perl | remove perl
+6 sudo apt depends perl | wc -l
+7 sudo apt install httpd
+8 sudo apt install vsftpd
+9 sudo apt install webmin
+10 history > myhist.txt
